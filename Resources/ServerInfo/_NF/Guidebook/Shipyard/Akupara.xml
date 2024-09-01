@@ -31,10 +31,12 @@
   
   ## 1.1. Battery units
   <Box>
+  <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
+  - Check that the SMES unit is anchored to the floor.
   - Check if the substation unit is anchored to the floor.
   - Check if all APC unit Main Breakers are toggled on.
   - Check the current Load of all APC units* (W).
